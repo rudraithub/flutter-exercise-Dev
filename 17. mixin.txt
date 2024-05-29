@@ -1,0 +1,17 @@
+void main() {
+ var obj=A();
+  obj.Bike();
+  obj.Car();
+}
+ class A with bike,car{
+}
+ mixin bike{
+   Bike(){
+    print("this is an electrict variant");
+   }
+ }  
+ mixin car{
+   Car(){
+     print("this is a petrol variant");
+   }
+ }
